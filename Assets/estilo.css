@@ -1,0 +1,110 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 30px;
+}
+
+
+/*----------------------Base----------------------*/
+    nav{
+	    background: black;
+	    width:100%;
+        height: 80px;
+	    display: flex;
+    }
+
+    #bt1 {
+        background: black;
+        display: none;
+        padding-top: 0;
+    }
+
+
+    #nav_ul_desk {
+        list-style-type: none;
+        display: flex;
+        padding-top: 20px;
+        position: fixed;
+        min-width: 100%;
+        justify-content: center;
+        z-index: 1;
+}
+
+    li {
+    text-align: center;
+    font-size: 25px;
+    display: block;
+    margin: 10px;
+    }
+
+
+    a {
+    color: White;
+    text-decoration: none;
+}
+
+    a:hover {
+    color: rgb(0, 210, 211);
+    }
+
+
+    #nav_ul_mob {
+    display: none;
+    padding-top: 10%;
+    background: black;
+}
+
+
+
+@media (max-width: 1440px) { 
+
+   
+}
+
+@media (max-width: 1112px) {
+    
+
+}
+
+
+@media (max-width: 834px) {
+    /*------------Menu-Mobile------------*/
+    #nav_ul_desk {
+        display:none;
+
+    }
+    #bt1 {
+        display: block;
+        border: none;
+        padding-top: 20px;
+        position: fixed;
+        min-width: 100%;
+        left: 40%;
+        z-index: 2;
+    }
+
+    #nav_ul_mob {
+        display: none;
+        
+        
+        padding-top: 20px;
+        position: fixed;
+        min-width: 100%;
+        justify-content: center;
+        z-index: 1;
+    }
+
+    #pres {
+        height:300px;
+        width: 100%;
+        background: red;
+    }
+
+
+
+    @media (max-width: 414px) {
+    }
