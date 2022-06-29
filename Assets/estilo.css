@@ -10,12 +10,15 @@ html {
 
 
 /*----------------------Base----------------------*/
-    nav{
-	    background: black;
-	    width:100%;
-        height: 80px;
-	    display: flex;
-    }
+nav {
+    background: black;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    position: fixed;
+    border-bottom: 1px solid rgb(0, 210, 211);
+    
+}
 
     #bt1 {
         background: black;
@@ -58,21 +61,59 @@ html {
     background: black;
 }
 
+#pres {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    padding: 0;
+}
 
 
-@media (max-width: 1440px) { 
 
+    #ola {
+        margin-top: 300px;
+        
+    }
+
+h2 {
+    color: rgb(0, 210, 211);
+    padding: 0;
+}
+
+#im {
+    margin-top: 180px;
+    
+ 
+}
+
+#descri_p {
+    color: rgb(0, 210, 211);
+    padding: 0;
+    width: 18em;
+    
+}
+
+
+@media (max-width: 1500px) {
+
+   
    
 }
 
-@media (max-width: 1112px) {
-    
+@media (max-width: 1230px) {
+
+   
 
 }
 
 
 @media (max-width: 834px) {
     /*------------Menu-Mobile------------*/
+
+    nav {
+        top: 0;
+    }
+    
     #nav_ul_desk {
         display:none;
 
@@ -89,8 +130,6 @@ html {
 
     #nav_ul_mob {
         display: none;
-        
-        
         padding-top: 20px;
         position: fixed;
         min-width: 100%;
@@ -98,13 +137,42 @@ html {
         z-index: 1;
     }
 
+    
+
+    
+
     #pres {
-        height:300px;
-        width: 100%;
-        background: red;
+        display: flex;
+        flex-direction: column-reverse;
+        padding-left: 180px;
+        padding-top: 150px;
+        
+    }
+
+    #im {
+        margin-top: 0;
+        padding-left: 150px;
+        padding-top: 0;
+    }
+
+    #foto {
+        height: 200px;
+        width: 180px;
     }
 
 
+    #ola {
+        margin-top: 0;
+        padding-top: 10px;
+    }
 
-    @media (max-width: 414px) {
+    h2 {
+        font-size: 40px;
+    }
+    #descri_p {
+        font-size: 20px;
+    }
+    
+
+    @media (max-width: 600px) {
     }
