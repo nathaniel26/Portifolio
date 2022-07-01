@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    background-color: black;
 }
 
 html {
@@ -11,13 +12,15 @@ html {
 
 /*----------------------Base----------------------*/
 
+/*-----------menu-----------*/
+
 h3 {
     color: aliceblue;
 }
 
 header {
     background-color: black;
-    border-bottom: 2px solid #2ecc71;
+    border-bottom: 2px solid #00cec9;
 }
 
 nav {
@@ -53,7 +56,7 @@ a {
 }
 
     a:hover {
-        color: #2ecc71;
+        color: #00cec9;
     }
 
 /*---------Menu mobile---------*/
@@ -90,6 +93,35 @@ a {
 }
 
 
+/*-----------apresentação-----------*/
+
+
+
+#apres {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+#descri {
+    align-self: center;
+}
+
+#foto {
+    width: 8rem;
+    height: 8.5rem;
+}
+
+#img {
+    padding-left: 100px;
+}
+
+span {
+    color: #00cec9;
+}
+
 
 
 
@@ -109,9 +141,34 @@ a {
 
         display:block;
     }
+    /*-----------apresentação-----------*/
 
-    
+    #apres {
+        display: block;
+    }
+    #descri {
+        text-align: center;
+        padding: 0.2rem;
+    }
 
+    #ola {
+        font-size: 1.1rem;
+    }
+    #so {
+        font-size: 0.5rem;
+    }
+
+    #img {
+        padding-left: 0;
+        padding-top: 1rem;
+        text-align:center;
+ 
+    }
+
+    #foto {
+        width: 6rem;
+        height: 6.5rem;
+    }
   
             
  }
