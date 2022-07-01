@@ -16,54 +16,50 @@
     <body>
         <!------Cabecalho------>
         <header>
-            <nav>
+            <nav id="nav-bar">
 
-                <button id="bt1"><img id="img_bt" width="30px" height="30px" src="Imgs\bt1.png" onclick="faz()"></button>
+                <div id="logo"><h3>Logo</h3></div>
+                
+                <div id="menu">
+                    <ul>
+                        <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Habilidades</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+
+                    </ul>
+
+                </div>
+
+                <div id="vazia"></div>
 
 
-                <!------menu-desk------>
-                <ul id="nav_ul_desk">
-                    <li class="nav__item"><a href="#home">Inicio</a></li>
-                    <li class="nav__item"><a href="#about">Sobre</a></li>
-                    <li class="nav__item"><a href="#skills">Habilidades</a></li>
-                    <li class="nav__item"><a href="#work">Trabalhos</a></li>
-                    <li class="nav__item"><a href="#contato">Contato</a></li>
-                </ul>
-
-
-                <!------menu-mob------>
-                <ul id="nav_ul_mob">
-                    <li class="nav__item"><a href="#home">Inicio</a></li>
-                    <li class="nav__item"><a href="#about">Sobre</a></li>
-                    <li class="nav__item"><a href="#skills">Habilidades</a></li>
-                    <li class="nav__item"><a href="#work">Trabalhos</a></li>
-                    <li class="nav__item"><a href="#contato">Contato</a></li>
-                </ul>
-
+                <div id="menu-mobile">
+                    <button id="bt" onclick="menushow()"> <img id="icon" src="Imgs/bt1.png"> </button>
+                </div>
             </nav>
+
+            <div id="item-menu-mobile" class="add">
+
+                <ul id="ul-menu-mobile">
+                    <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Habilidades</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+
+                </ul>
+
+            </div>
 
 
 
 
         </header>
 
-        <div id="pres">
-
-            <div id="ola">
-                <h2>Ola! <br> Sou o Nathaniel Farias</h2>
-                <p id="descri_p">sou apaixonado por tecnologias e games.<br>Atualmente estou estudando para ser desenvolvedor mobile. </p>
-            </div>
-
-            <div id="im">
-                <img id="foto" src="\Imgs\tete.png" height="300px" width="280px">
-
-            </div>
-
-
-        </div>
-
-
+        
 
     </body>
-        <script src="js.js"></script>
+        <script src="Assets/main.js"></script>
 </html>

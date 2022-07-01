@@ -1,6 +1,6 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 html {
@@ -10,169 +10,110 @@ html {
 
 
 /*----------------------Base----------------------*/
+
+h3 {
+    color: aliceblue;
+}
+
+header {
+    background-color: black;
+    border-bottom: 2px solid #2ecc71;
+}
+
 nav {
-    background: black;
-    width: 100%;
-    height: 80px;
-    display: flex;
-    position: fixed;
-    border-bottom: 1px solid rgb(0, 210, 211);
+    display:flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
     
 }
 
-    #bt1 {
-        background: black;
-        display: none;
-        padding-top: 0;
-    }
+#logo {
 
-
-    #nav_ul_desk {
-        list-style-type: none;
-        display: flex;
-        padding-top: 20px;
-        position: fixed;
-        min-width: 100%;
-        justify-content: center;
-        z-index: 1;
+    display: flex;
+    align-items: center;
 }
 
-    li {
-    text-align: center;
-    font-size: 25px;
-    display: block;
-    margin: 10px;
-    }
+ul {
+    display: flex;
+    align-items: center;
+    
+}
 
+li {
+    margin: 0 15px;
+    list-style: none;
+}
 
-    a {
-    color: White;
+a {
     text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
 }
 
     a:hover {
-    color: rgb(0, 210, 211);
+        color: #2ecc71;
     }
 
+/*---------Menu mobile---------*/
 
-    #nav_ul_mob {
+#menu-mobile {
+    padding-right: 2rem;
     display: none;
-    padding-top: 10%;
-    background: black;
 }
 
-#pres {
-    display: flex;
-    background-color: black;
-    justify-content: center;
-    padding: 0;
+#icon {
+    width: 1.2rem;
+    height: 1.1rem;
 }
 
+#ul-menu-mobile {
+    display: block;
+    text-align: center;
+    padding: 1rem;
+}
 
+    #ul-menu-mobile li {
+        padding: 0.5rem;
 
-    #ola {
-        margin-top: 300px;
-        
     }
 
-h2 {
-    color: rgb(0, 210, 211);
-    padding: 0;
-}
+    #bt {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
 
-#im {
-    margin-top: 180px;
-    
- 
-}
-
-#descri_p {
-    color: rgb(0, 210, 211);
-    padding: 0;
-    width: 18em;
-    
+#item-menu-mobile {
+    display: none;
 }
 
 
-@media (max-width: 1500px) {
-
-   
-   
-}
-
-@media (max-width: 1230px) {
-
-   
-
-}
 
 
-@media (max-width: 834px) {
+
+@media screen and (max-width: 800px) {
     /*------------Menu-Mobile------------*/
 
     nav {
-        top: 0;
-    }
-    
-    #nav_ul_desk {
-        display:none;
 
-    }
-    #bt1 {
-        display: block;
-        border: none;
-        padding-top: 20px;
-        position: fixed;
-        min-width: 100%;
-        left: 40%;
-        z-index: 2;
-    }
-
-    #nav_ul_mob {
-        display: none;
-        padding-top: 20px;
-        position: fixed;
-        min-width: 100%;
-        justify-content: center;
-        z-index: 1;
-    }
-
-    
-
-    
-
-    #pres {
-        display: flex;
-        flex-direction: column-reverse;
-        padding-left: 180px;
-        padding-top: 150px;
         
     }
 
-    #im {
-        margin-top: 0;
-        padding-left: 150px;
-        padding-top: 0;
+    #menu {
+        display: none;
     }
 
-    #foto {
-        height: 200px;
-        width: 180px;
+    #menu-mobile {
+
+        display:block;
     }
 
-
-    #ola {
-        margin-top: 0;
-        padding-top: 10px;
-    }
-
-    h2 {
-        font-size: 40px;
-    }
-    #descri_p {
-        font-size: 20px;
-    }
     
 
-    @media (max-width: 600px) {
-    }
+  
+            
+ }
+    
+
