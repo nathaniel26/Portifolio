@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: black;
+    
 }
 
 html {
@@ -121,6 +121,75 @@ a {
 span {
     color: #00cec9;
 }
+
+
+/*-----------habilidades-----------*/
+
+#habil {
+    padding-left: 20%;
+    background: black;
+    padding-bottom: 10rem;
+}
+#h3-hab {
+    color: white;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    background: black;
+}
+
+.text-hab {
+    font-size: 0.7rem;
+}
+
+#progress-bar-html {
+    height: 0.8rem;
+    width: 70%;
+    background: linear-gradient(to right, #00cec9 100%, #808080 10%);
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+#progress-bar-css {
+    height: 0.8rem;
+    width: 70%;
+    background: linear-gradient(to right, #00cec9 85%, #808080 10%);
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+#progress-bar-javascript {
+    height: 0.8rem;
+    width: 70%;
+    background: linear-gradient(to right, #00cec9 40%, #808080 10%);
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+#progress-bar-python {
+    height: 0.8rem;
+    width: 70%;
+    background: linear-gradient(to right, #00cec9 80%, #808080 10%);
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+#progress-bar-dados {
+    height: 0.8rem;
+    width: 70%;
+    background: linear-gradient(to right, #00cec9 75%, #808080 10%);
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+#progress-bar-automacao {
+    height: 0.8rem;
+    width: 70%;
+    background: linear-gradient(to right, #00cec9 95%, #808080 10%);
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+
 
 
 
