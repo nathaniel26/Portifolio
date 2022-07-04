@@ -160,6 +160,7 @@ span {
 }
 .h3-hab2 {
     text-align: center;
+    padding-top: 1rem;
 }
 
 
@@ -189,6 +190,7 @@ span {
     background: linear-gradient(to right, #00cec9 85%, #808080 10%);
     padding-left: 1rem;
     margin-bottom: 1rem;
+    display: flex;
 }
 
 #progress-bar-javascript {
@@ -197,6 +199,7 @@ span {
     background: linear-gradient(to right, #00cec9 40%, #808080 10%);
     padding-left: 1rem;
     margin-bottom: 1rem;
+    display: flex;
 }
 
 #progress-bar-python {
@@ -205,6 +208,7 @@ span {
     background: linear-gradient(to right, #00cec9 80%, #808080 10%);
     padding-left: 1rem;
     margin-bottom: 1rem;
+    display: flex;
 }
 
 #progress-bar-dados {
@@ -213,6 +217,7 @@ span {
     background: linear-gradient(to right, #00cec9 75%, #808080 10%);
     padding-left: 1rem;
     margin-bottom: 1rem;
+    display: flex;
 }
 #progress-bar-automacao {
     height: 0.8rem;
@@ -220,6 +225,7 @@ span {
     background: linear-gradient(to right, #00cec9 95%, #808080 10%);
     padding-left: 1rem;
     margin-bottom: 1rem;
+    display: flex;
 }
 
 #progress-bar-photo {
@@ -228,6 +234,7 @@ span {
     background: linear-gradient(to right, #00cec9 80%, #808080 10%);
     padding-left: 1rem;
     margin-bottom: 1rem;
+    display: flex;
 }
 
 #progress-bar-corel {
@@ -236,6 +243,7 @@ span {
     background: linear-gradient(to right, #00cec9 70%, #808080 10%);
     padding-left: 1rem;
     margin-bottom: 1rem;
+    display: flex;
 }
 #progress-bar-c {
     height: 0.8rem;
@@ -244,6 +252,7 @@ span {
     padding-left: 1rem;
     margin-bottom: 1rem;
     margin-top: 1rem;
+    display: flex;
 }
 
 #progress-bar-kot {
@@ -251,8 +260,8 @@ span {
     width: 70%;
     background: linear-gradient(to right, #00cec9 30%, #808080 10%);
     padding-left: 1rem;
-    margin-bottom: 3rem;
-    
+    margin-bottom: 0;
+    display: flex;
 }
 
 /*-----------Projetos-----------*/
@@ -339,17 +348,26 @@ form {
         /*------------Menu-Mobile------------*/
 
         nav {
+            
         }
 
         #menu {
             display: none;
+            
         }
 
         #menu-mobile {
             display: block;
+            
         }
-        /*-----------apresentação-----------*/
 
+        #ul-menu-mobile {
+            padding-top: 3.5rem;
+            padding-bottom: 0;
+            border-bottom: 2px solid #00cec9;
+        }
+
+        /*-----------apresentação-----------*/
         #apres {
             display: block;
         }
@@ -432,6 +450,36 @@ form {
 
 
     }
+
+@media screen and (max-width: 400px) {
+
+    .text-hab {
+
+        font-size: 0.6rem;
+    }
+
+    #progress-bar-html,
+    #progress-bar-css,
+    #progress-bar-javascript,
+    #progress-bar-python,
+    #progress-bar-dados,
+    #progress-bar-automacao,
+    #progress-bar-photo,
+    #progress-bar-corel,
+    #progress-bar-c,
+    #progress-bar-kot {
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .habil {
+        padding-left: 0;
+
+        margin-right: auto;
+        margin-left: auto;
+    }
+  }
 
     
 

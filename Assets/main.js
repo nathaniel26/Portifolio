@@ -19,6 +19,16 @@ function menushow() {
 
 	}
 
+}
 
+//aqui fechamos o menu ao clicar em um link
+
+function fecha() {
+
+	let menu = document.getElementById("item-menu-mobile");
+	document.getElementById("item-menu-mobile").style.display = "none";
+	document.getElementById("icon").src = "Imgs/bt1.png";
+	menu.classList.add("add");
+	close;
 
 }
