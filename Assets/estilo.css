@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    
+    background-color: black;
 }
 
 html {
@@ -10,26 +10,41 @@ html {
 }
 
 
+
+h4 {
+    color:white;
+    padding-left: 10rem;
+    
+}
+
+
+
+
+
 /*----------------------Base----------------------*/
 
 /*-----------menu-----------*/
 
 h3 {
     color: aliceblue;
+    
 }
 
 header {
     background-color: black;
-    border-bottom: 2px solid #00cec9;
+    position: fixed;
+    width: 100%;
 }
 
 nav {
-    display:flex;
+    display: flex;
     justify-content: space-between;
     padding-left: 2rem;
     padding-top: 1rem;
-    padding-bottom: 0.5rem;
-    
+    padding-bottom: 1rem;
+    position: fixed;
+    width: 100%;
+    border-bottom: 2px solid #00cec9;
 }
 
 #logo {
@@ -92,9 +107,12 @@ a {
     display: none;
 }
 
+#bt {
+    padding-right: 1rem;
+}
+
 
 /*-----------apresentação-----------*/
-
 
 
 #apres {
@@ -102,7 +120,8 @@ a {
     background-color: black;
     color: white;
     justify-content: center;
-    padding-top: 3rem;
+    padding-top: 6rem;
+    
 }
 
 #descri {
@@ -125,22 +144,34 @@ span {
 
 /*-----------habilidades-----------*/
 
-#habil {
+.habil {
     padding-left: 20%;
     background: black;
-    padding-bottom: 10rem;
+    
+    
 }
-#h3-hab {
+.h3-hab {
     color: white;
     text-align: center;
     padding-top: 5rem;
-    padding-bottom: 1rem;
     background: black;
+    margin-top: 0;
+    margin-bottom: 2rem;
 }
+.h3-hab2 {
+    text-align: center;
+}
+
 
 .text-hab {
     font-size: 0.7rem;
 }
+
+.per {
+    background-color: transparent;
+    padding-left: 10%;
+}
+
 
 #progress-bar-html {
     height: 0.8rem;
@@ -148,6 +179,8 @@ span {
     background: linear-gradient(to right, #00cec9 100%, #808080 10%);
     padding-left: 1rem;
     margin-bottom: 1rem;
+    display: flex;
+    
 }
 
 #progress-bar-css {
@@ -189,57 +222,216 @@ span {
     margin-bottom: 1rem;
 }
 
+#progress-bar-photo {
+    height: 0.8rem;
+    width: 70%;
+    background: linear-gradient(to right, #00cec9 80%, #808080 10%);
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+#progress-bar-corel {
+    height: 0.8rem;
+    width: 70%;
+    background: linear-gradient(to right, #00cec9 70%, #808080 10%);
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+#progress-bar-c {
+    height: 0.8rem;
+    width: 70%;
+    background: linear-gradient(to right, #00cec9 80%, #808080 10%);
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+#progress-bar-kot {
+    height: 0.8rem;
+    width: 70%;
+    background: linear-gradient(to right, #00cec9 30%, #808080 10%);
+    padding-left: 1rem;
+    margin-bottom: 3rem;
+    
+}
+
+/*-----------Projetos-----------*/
+#ancora-proj {
+
+    padding-top: 4rem;
+}
+
+
+#projetos {
+
+    display: flex;
+    justify-content: center;
+}
+.proj-caixa {
+    width: 10rem;
+    height: 9rem;
+    margin-right: 1rem;
+    background-color: #00cec9;
+    border-radius: 0.7rem;
+    margin-top: 1rem;
+    
+}
+
+.p-proj {
+    background-color: transparent;
+    text-align: center;
+}
+
+#caixa3 {
+    margin-right: 0;
+}
+
+/*-----------Contatos-----------*/
+#cont {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+
+form {
+    display: block;
+    color: white;
+    text-align: center;
+    padding-left: 23%;
+    margin-bottom: 2rem;
+}
+
+.form label {
+    background: #00cec9;
+}
+
+.form input {
+    background-color: black;
+    padding-bottom: 1rem;
+}
+
+.form textarea {
+    padding-bottom: 2rem;
+    margin-bottom: 0px;
+}
 
 
 
+.form label,
+.form input,
+.form textarea,
+.form button
+ {
+    display: block;
+    width: 70%;
+    border: 1px solid #00cec9;
+    color: white;
+}
+.form button {
+    background: #00cec9;
+    width: 4rem;
+    height: 1rem;
+}
 
 
-@media screen and (max-width: 800px) {
-    /*------------Menu-Mobile------------*/
 
-    nav {
+    @media screen and (max-width: 800px) {
+        /*------------Menu-Mobile------------*/
 
-        
-    }
+        nav {
+        }
 
-    #menu {
-        display: none;
-    }
+        #menu {
+            display: none;
+        }
 
-    #menu-mobile {
+        #menu-mobile {
+            display: block;
+        }
+        /*-----------apresentação-----------*/
 
-        display:block;
-    }
-    /*-----------apresentação-----------*/
+        #apres {
+            display: block;
+        }
 
-    #apres {
-        display: block;
-    }
-    #descri {
-        text-align: center;
-        padding: 0.2rem;
-    }
+        #descri {
+            text-align: center;
+            padding: 0.2rem;
+        }
 
-    #ola {
-        font-size: 1.1rem;
-    }
-    #so {
-        font-size: 0.5rem;
-    }
+        #ola {
+            font-size: 1.1rem;
+        }
 
-    #img {
-        padding-left: 0;
-        padding-top: 1rem;
-        text-align:center;
- 
-    }
+        #so {
+            font-size: 0.5rem;
+        }
 
-    #foto {
-        width: 6rem;
-        height: 6.5rem;
-    }
-  
+        #img {
+            padding-left: 0;
+            padding-top: 1rem;
+            text-align: center;
+        }
+
+        #foto {
+            width: 6rem;
+            height: 6.5rem;
+        }
+
+
+        /*-----------Projetos-----------*/
+
+        #projetos {
+            display: block;
+            padding: 0;
+            margin: 0;
             
- }
+            
+        }
+
+        .proj-caixa {
+            width: 10rem;
+            height: 9rem;
+            margin: 0;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        #caixa3 {
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        /*-----------Contatos-----------*/
+
+        #contato {
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        form {
+            text-align: center;
+            padding: 0;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+
+
+        .form label,
+        .form input,
+        .form textarea,
+        .form button {
+            width: 70%;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+
+
+    }
+
     
 

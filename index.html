@@ -18,15 +18,14 @@
         <header>
             <nav id="nav-bar">
 
-                <div id="logo"><h3>Logo</h3></div>
+                <div id="logo"><h3>NF</h3></div>
 
                 <div id="menu">
                     <ul>
                         <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Habilidades</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+                        <li class="nav-item"><a href="#h3-ancora" class="nav-link">Habilidades</a></li>
+                        <li class="nav-item"><a href="#ancora-proj" class="nav-link">Projetos</a></li>
+                        <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
 
                     </ul>
 
@@ -44,10 +43,9 @@
 
                 <ul id="ul-menu-mobile">
                     <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Habilidades</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+                    <li class="nav-item"><a href="#h3-ancora" class="nav-link">Habilidades</a></li>
+                    <li class="nav-item"><a href="#ancora-proj" class="nav-link">Projetos</a></li>
+                    <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
 
                 </ul>
             </div>
@@ -70,18 +68,71 @@
 
         </div>
 
-        <h3 id="h3-hab">Habilidades</h3>
-        <div id="habil">
+        <h3 class="h3-hab" id="h3-ancora" >Habilidades</h3>
+        <div class="habil">
 
-            <div id="progress-bar-html" class="text-hab">Html</div>
+            <div id="progress-bar-html" class="text-hab">Html   <p class="per">100%</p> </div>
             <div id="progress-bar-css" class="text-hab">CSS</div>
             <div id="progress-bar-javascript" class="text-hab">Javascript</div>
             <div id="progress-bar-python" class="text-hab">Python</div>
             <div id="progress-bar-dados" class="text-hab">Analise de dados</div>
             <div id="progress-bar-automacao" class="text-hab">Automação</div>
+            <div id="progress-bar-photo" class="text-hab">Photoshop</div>
+            <div id="progress-bar-corel" class="text-hab">Corel Draw</div>
+        </div>
+
+        <h3 class="h3-hab2">Aprendendo</h3>
+
+        <div class="habil">
+            <div id="progress-bar-c" class="text-hab">C#/Unity</div>
+            <div id="progress-bar-kot" class="text-hab">Kotlin</div>
 
         </div>
 
+        <div id="ancora-proj"></div>
+
+        <h3 class="h3-hab2" >Projetos</h3>
+
+        <div id="projetos">
+
+            <div class="proj-caixa">
+
+                <p class="p-proj">Em breve</p>
+            </div>
+
+            <div class="proj-caixa">
+                <p class="p-proj">Em breve</p>
+
+            </div>
+
+            <div class="proj-caixa" id="caixa3">
+                <p class="p-proj">Em breve</p>
+
+            </div>
+
+
+        </div>
+
+
+        <h3 class="h3-hab2" id="cont">Contato</h3>
+        
+        <div id="contato">
+            <form action="https://formsubmit.co/nathaniel.farias@gmail.com"
+                  method="POST"
+                  class="form">
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name" required  placeholder="Digite seu nome aqui..."/>
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" required placeholder="Digite seu email aqui..." />
+                <label for="message">Mensagem</label>
+                <textarea name="message" id="message" required placeholder="Digite sua mensagem aqui..."></textarea>
+                <input type="hidden" name="_captcha" value="false" />
+                <input type="hidden"
+                       name="_next"
+                       value="https://nathanielfarias.netlify.app" />
+                <button id="bt-enviar" type="submit">Enviar</button>
+            </form>
+        </div>
 
 
     </body>
