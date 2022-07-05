@@ -56,6 +56,7 @@ nav {
 ul {
     display: flex;
     align-items: center;
+    padding-top: 8px;
     
 }
 
@@ -73,6 +74,17 @@ a {
     a:hover {
         color: #00cec9;
     }
+
+
+#redes {
+    padding-right: 80px;
+}
+.img-cab {
+    width: 1.5rem;
+    height: 1.5rem;
+    
+}
+
 
 /*---------Menu mobile---------*/
 
@@ -342,12 +354,50 @@ form {
     height: 1rem;
 }
 
+/*------------Footer------------*/
+footer {
+    display: block;
+    text-align:center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-top: 2px solid #00cec9;
+}
 
 
-    @media screen and (max-width: 800px) {
-        /*------------Menu-Mobile------------*/
+#des {
+    color: white;
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top: 0.5rem;
+}
 
-        nav {
+.img-foot {
+    width: 50px;
+    height: 50px;
+    margin-right: 0.5rem;
+}
+
+
+@media screen and (max-width: 850px) {
+
+    .img-cab {
+        width: 1rem;
+        height: 1rem;
+    }
+
+    ul {
+       
+        padding-top: 0px;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    /*------------Menu-Mobile------------*/
+
+    
+
+    nav {
             
         }
 
@@ -364,13 +414,31 @@ form {
         #ul-menu-mobile {
             padding-top: 3.5rem;
             padding-bottom: 0;
-            border-bottom: 2px solid #00cec9;
         }
 
-        /*-----------apresentação-----------*/
-        #apres {
-            display: block;
-        }
+    #redes {
+        display: none;
+    }
+
+    #redes-mob {
+        text-align: center;
+        border-bottom: 2px solid #00cec9;
+    }
+
+
+    .img-cab {
+        width: 1.3rem;
+        height: 1.3rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-left: 0.5rem;
+    }
+
+
+    /*-----------apresentação-----------*/
+    #apres {
+        display: block;
+    }
 
         #descri {
             text-align: center;
