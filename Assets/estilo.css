@@ -188,7 +188,7 @@ span {
 
 #progress-bar-html {
     height: 0.8rem;
-    width: 70%;
+    width: 75%;
     background: linear-gradient(to right, #00cec9 100%, #808080 10%);
     padding-left: 1rem;
     margin-bottom: 1rem;
@@ -198,7 +198,7 @@ span {
 
 #progress-bar-css {
     height: 0.8rem;
-    width: 70%;
+    width: 75%;
     background: linear-gradient(to right, #00cec9 85%, #808080 10%);
     padding-left: 1rem;
     margin-bottom: 1rem;
@@ -207,7 +207,7 @@ span {
 
 #progress-bar-javascript {
     height: 0.8rem;
-    width: 70%;
+    width: 75%;
     background: linear-gradient(to right, #00cec9 40%, #808080 10%);
     padding-left: 1rem;
     margin-bottom: 1rem;
@@ -216,7 +216,7 @@ span {
 
 #progress-bar-python {
     height: 0.8rem;
-    width: 70%;
+    width: 75%;
     background: linear-gradient(to right, #00cec9 80%, #808080 10%);
     padding-left: 1rem;
     margin-bottom: 1rem;
@@ -225,7 +225,7 @@ span {
 
 #progress-bar-dados {
     height: 0.8rem;
-    width: 70%;
+    width: 75%;
     background: linear-gradient(to right, #00cec9 75%, #808080 10%);
     padding-left: 1rem;
     margin-bottom: 1rem;
@@ -233,7 +233,7 @@ span {
 }
 #progress-bar-automacao {
     height: 0.8rem;
-    width: 70%;
+    width: 75%;
     background: linear-gradient(to right, #00cec9 95%, #808080 10%);
     padding-left: 1rem;
     margin-bottom: 1rem;
@@ -242,7 +242,7 @@ span {
 
 #progress-bar-photo {
     height: 0.8rem;
-    width: 70%;
+    width: 75%;
     background: linear-gradient(to right, #00cec9 80%, #808080 10%);
     padding-left: 1rem;
     margin-bottom: 1rem;
@@ -251,7 +251,7 @@ span {
 
 #progress-bar-corel {
     height: 0.8rem;
-    width: 70%;
+    width: 75%;
     background: linear-gradient(to right, #00cec9 70%, #808080 10%);
     padding-left: 1rem;
     margin-bottom: 1rem;
@@ -259,7 +259,7 @@ span {
 }
 #progress-bar-c {
     height: 0.8rem;
-    width: 70%;
+    width: 75%;
     background: linear-gradient(to right, #00cec9 80%, #808080 10%);
     padding-left: 1rem;
     margin-bottom: 1rem;
@@ -269,7 +269,7 @@ span {
 
 #progress-bar-kot {
     height: 0.8rem;
-    width: 70%;
+    width: 75%;
     background: linear-gradient(to right, #00cec9 30%, #808080 10%);
     padding-left: 1rem;
     margin-bottom: 0;
@@ -366,7 +366,7 @@ footer {
 
 #des {
     color: white;
-    font-size: 0.7rem;
+    font-size: 0.4rem;
     text-align: center;
     padding-top: 0.5rem;
 }
@@ -519,7 +519,7 @@ footer {
 
     }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 430px) {
 
     .text-hab {
 
