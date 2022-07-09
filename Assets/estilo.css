@@ -282,25 +282,61 @@ span {
     padding-top: 4rem;
 }
 
-
 #projetos {
+    display: block;
+    margin-top: 1.5rem;
+}
 
+
+.box {
     display: flex;
     justify-content: center;
+    margin-bottom: 1rem;
+}
+
+
+.a {
+    padding: 0.2rem;
 }
 .proj-caixa {
-    width: 10rem;
-    height: 9rem;
-    margin-right: 1rem;
+    width: 9rem;
+    height: 11.5rem;
     background-color: #00cec9;
     border-radius: 0.7rem;
     margin-top: 1rem;
+}
+
+.p-proj-tit {
+    background-color: transparent;
+    text-align: center;
+    font-size: 0.8rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
     
 }
 
-.p-proj {
+.p-proj-img {
     background-color: transparent;
     text-align: center;
+}
+
+.img-proj {
+    background-color: transparent;
+    width: 7rem;
+    height: 7rem;
+ }
+
+
+.p-proj-desc {
+    background-color: transparent;
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 2%;
+    
+}
+
+.a-proj {
+    background-color: transparent;
 }
 
 #caixa3 {
@@ -467,6 +503,15 @@ footer {
 
         /*-----------Projetos-----------*/
 
+    .a {
+        display:none;
+    }
+    .box {
+        display: block;
+        
+    }
+
+
         #projetos {
             display: block;
             padding: 0;
@@ -476,14 +521,16 @@ footer {
         }
 
         .proj-caixa {
-            width: 10rem;
-            height: 9rem;
+            
             margin: 0;
             margin-top: 1rem;
             margin-bottom: 1rem;
             margin-right: auto;
             margin-left: auto;
         }
+
+
+    
 
         #caixa3 {
             margin-right: auto;
